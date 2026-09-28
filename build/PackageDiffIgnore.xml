@@ -3873,6 +3873,9 @@
 		  <Member fullName="Microsoft.Windows.ApplicationModel.Resources.ResourceManager" reason="Relocated Microsoft.Windows.ApplicationModel.Resources.* (MRT-Core) from Uno.UI to Uno.WinRT to match WinAppSDK (Microsoft.Windows.ApplicationModel.Resources.Projection) (#2065, breaking changes for 7.0)" />
 		  <Member fullName="Microsoft.Windows.ApplicationModel.Resources.ResourceMap" reason="Relocated Microsoft.Windows.ApplicationModel.Resources.* (MRT-Core) from Uno.UI to Uno.WinRT to match WinAppSDK (Microsoft.Windows.ApplicationModel.Resources.Projection) (#2065, breaking changes for 7.0)" />
 		  <Member fullName="Microsoft.Windows.ApplicationModel.Resources.ResourceNotFoundEventArgs" reason="Relocated Microsoft.Windows.ApplicationModel.Resources.* (MRT-Core) from Uno.UI to Uno.WinRT to match WinAppSDK (Microsoft.Windows.ApplicationModel.Resources.Projection) (#2065, breaking changes for 7.0)" />
+		  <!-- WinRT.Interop window interop relocated from Uno.UI to Uno.Foundation, matching WinAppSDK (WinRT.Runtime); Uno.UI now backs it through ApiExtensibility (#2065, breaking changes for 7.0). -->
+		  <Member fullName="WinRT.Interop.InitializeWithWindow" reason="Relocated WinRT.Interop.InitializeWithWindow from Uno.UI to Uno.Foundation to match WinAppSDK (WinRT.Runtime) (#2065, breaking changes for 7.0)" />
+		  <Member fullName="WinRT.Interop.WindowNative" reason="Relocated WinRT.Interop.WindowNative from Uno.UI to Uno.Foundation to match WinAppSDK (WinRT.Runtime) (#2065, breaking changes for 7.0)" />
 
 		  <!-- Uno-only menu-plumbing interfaces reduced to internal; WinUI has no public counterparts. -->
 		  <Member fullName="Microsoft.UI.Xaml.Controls.IMenu" reason="Reduced Uno-only IMenu to internal (breaking changes for 7.0, uno#8339)" />
