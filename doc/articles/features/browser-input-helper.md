@@ -20,7 +20,7 @@ For most in-app shortcuts, no additional configuration is required beyond handli
 
 ## Prerequisites
 
-The `BrowserInputHelper` class is WebAssembly Skia-specific. It resides in the `Uno.UI.Runtime.Skia` namespace and is only available in the `Uno.WinUI.Runtime.WebAssembly.Browser` package.
+The `BrowserInputHelper` class is WebAssembly Skia-specific. It resides in the `Uno.UI.Runtime.Skia` namespace and is only available in the `Uno.WinUI.Runtime.BrowserWasm` package.
 
 When using this API, guard your code with platform checks:
 
